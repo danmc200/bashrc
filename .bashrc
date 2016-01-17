@@ -121,3 +121,8 @@ alias .....="cd ../../../.."
 alias myspotify="cd ~/MySpotify/vim; ./run_my_spotify_vim.sh"
 alias lst="ls -ltr"
 alias eclipse='~/eclipse/eclipse &'
+math() {
+    var="$1"
+    echo $(($var))
+}
+
